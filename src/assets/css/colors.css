@@ -1,3 +1,12 @@
 :root {
-    --color-background-default: #223344;
+    --color-default: #223344;
+    --color-black: #000000;
+    --color-pitch-black: #121212;
+    --color-deep-sea-green: #2eb097;
+    --color-dark-ocean-blue: #001c2a;
+    --color-obsidian: #0d0d1a;
+    --color-dark-gray: #212121;
+    --color-angel-white: #fefefe;
+
+    --color-pale-blue: #2d5164;
 }

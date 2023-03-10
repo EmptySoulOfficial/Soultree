@@ -1,0 +1,11 @@
+
+.Footer{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+}
+
+.Footer-Text-Watermark {
+    font-size: var(--font-small);
+    color: var(--color-watermarks);
+}
