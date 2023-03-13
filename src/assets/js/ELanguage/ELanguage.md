@@ -55,3 +55,4 @@ New and better code.
 
 #### update 2.1
 The HTML attribute "lang" is now also set to the selected/readed language.
+(This can possibly be unoptimal for search engines)

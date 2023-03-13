@@ -9,3 +9,19 @@
     font-size: var(--font-small);
     color: var(--color-watermarks);
 }
+
+.Footer-Link-Container{
+    padding-bottom: 35px;
+}
+
+.Contact-Link {
+    color: var(--color-link);
+}
+
+.Version {
+    display:none;
+}
+
+.Version-Display {
+    display: block;
+}

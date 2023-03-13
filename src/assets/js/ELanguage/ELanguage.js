@@ -1,3 +1,4 @@
+//ELanguage V 2.1
 import * as languageData from './lang/lang.json'
 import AutoLang from './AutoLanguage'
 
