@@ -1,0 +1,24 @@
+
+.SocialMediaButton {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.SocialMediaButton-Icon .Icon {
+    fill: var(--color-icons);
+    width: 100%;
+    height: 100%;
+}
+
+.SocialMediaButton-Icon {
+    width: 35px;
+    height: 35px;
+}
+
+.SocialMediaButton-Label {
+    padding-top: 10px;
+    display: none;
+}
