@@ -1,0 +1,14 @@
+{"de":{
+  "test": "Test Text Deutsch",
+  "short_description": "Songwriter, Dj und",
+  "short_description2": "Designer aus Deutschland",
+  "contactme": "Kontakt"
+    
+ },
+ "en":{
+  "test": "Test text english",
+  "short_description": "One-Man-Band, Dj and",
+  "short_description2": "Designer from Germany",
+  "contactme": "Contact Me"
+  }
+}
