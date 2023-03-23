@@ -1,5 +1,7 @@
 # Instagram Link Page
 ### Designed and Developed by Steve Arizona (Empty Soul)
+
+[EmptySoul.de/Instagram](https://emptysoul.de/instagram/)
 ______
 
 ## Dev Info
