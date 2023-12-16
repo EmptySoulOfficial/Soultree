@@ -1,11 +1,6 @@
-# Instagram Link Page
-### Designed and Developed by Steve Arizona (Empty Soul)
+# EmptySoul Instagram Tree 2.0
 
-[EmptySoul.de/Instagram](https://emptysoul.de/instagram/)
-______
 
-## Dev Info
-#### Npm Version: 6.14.13
-#### Node Version: 14.17.3
-_____
-
+#### Dev informations
+Node-Version: v16.13.0
+React-Version: 18.2.0
