@@ -1,5 +1,6 @@
 :root {
-    --color-app-background: var(--color-dark-ocean-blue);
+    --color-main: var(--color-experimental-dark);
+    --color-third: var(--color-angel-white);
     --color-icons: var(--color-light-green);
     --color-watermarks: var(--color-pale-blue);
     --color-link: var(--color-light-green);
@@ -7,9 +8,13 @@
     --font-small: var(--font-size-12);
 }
 
+.App {
+    background-color: var(--color-main)
+}
+
 p, div {
-font-family: Roboto;
-color: var(--color-angel-white);
+/* font-family: Roboto; */
+/* color: var(--color-angel-white); */
 }
 
 p {
@@ -19,8 +24,8 @@ p {
 }
 
 label {
-    font-family: Roboto;
-    color: var(--color-angel-white);
+    /* font-family: Roboto; */
+    /* color: var(--color-angel-white); */
 }
 
 h1 {
