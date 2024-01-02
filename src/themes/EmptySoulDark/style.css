@@ -1,6 +1,8 @@
 :root {
     --color-main: var(--color-experimental-dark);
     --color-third: var(--color-angel-white);
+    --color-highlight: var(--color-deep-sea-green);
+    
     --color-icons: var(--color-light-green);
     --color-watermarks: var(--color-pale-blue);
     --color-link: var(--color-light-green);

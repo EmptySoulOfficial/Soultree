@@ -1,1 +1,13 @@
 /* standard block css */
+
+.Block {
+    margin: 20px 0px;
+    padding: 20px;
+    background-color: var(--color-second);
+}
+
+.Block-Text-Container {
+    padding-top: 10px;
+    /* font-family: roboto; */
+    font-size: var(--fontsize-default);
+}

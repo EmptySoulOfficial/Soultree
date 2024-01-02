@@ -1,0 +1,5 @@
+.Logo {
+    border-radius: var(--border-radius-default);
+    width: 200px;
+    /* height: 50px; */
+}
