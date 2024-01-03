@@ -1,37 +1,68 @@
 /* Menu css */
 
-.Menu {
+.menu {
     width: 24px;
-    height: 24px;
+    height: 14px;
     flex-flow: column;
     cursor: pointer;
+    justify-content: space-between;
+    transition: 0.3s cubic-bezier(1, 0, 0.26, 1.02);
 }
 
-.Menu-Line {
+.menu-line {
     background-color: var(--color-third);
     height: 2px;
     width: 100%;
-    margin: 2px 0px;
+    /* margin: 2px 0px; */
+    transition: 0.3s cubic-bezier(1, 0, 0.26, 1.02);
 }
 
-.Menu-Line-1 {
+.menu-line-1 {
     width: 12px;
     align-self: flex-end;
-    transition: var(--transition-default);
+    transform-origin: right;
+    transition: 0.3s cubic-bezier(1, 0, 0.26, 1.02);
 }
 
-.Menu-Line-3 {
+.menu-line-3 {
     width: 12px;
     align-self: flex-start;
-    transition: var(--transition-default);
+    transform-origin: left;
+    transition: 0.3s cubic-bezier(1, 0, 0.26, 1.02);
 }
 
 
-/* Hover Animations only for desktop */
-.Menu:hover .Menu-Line-1 {
-width: 100%
+.menu--active {
+  transform: rotate(45deg);  
 }
 
-.Menu:hover .Menu-Line-3 {
+.menu--active .menu-line-1 {
+  transform: rotate(-90deg) translateY(-12px) translateX(6px);
+}
+
+.menu--active .menu-line-3 {
+  transform: rotate(-90deg) translateY(12px) translateX(-6px);
+}
+
+
+
+/* Only Desktop */
+@media only screen and (min-width: 1280px) {
+
+    .menu:hover .menu-line-1 {
     width: 100%
+    }
+
+    .menu:hover .menu-line-3 {
+        width: 100%
+    }
+
+    .menu--active:hover  .menu-line-1 {
+        width: 12px;
+    }
+
+    .menu--active:hover  .menu-line-3 {
+      width: 12px;
+    }
+      
 }

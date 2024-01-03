@@ -21,15 +21,16 @@
   src: url('../public/fonts/headlines/JosefinSans-Italic-VariableFont_wght.woff2') format('woff2');
 }
 
-.App {
+.app {
   justify-content: center;
+  min-height: 100%
 }
 
 main {
-  width: 100%;
-  max-width: 1200px;
+  width: calc(100% - var(--padding-main-pagex2));
+  max-width: var(--maxWidth-app);
   background-color: var(--color-main);
-  padding: 0px 30px;
+  padding: var( --paddingTop-main) var(--padding-main-page) 0px var(--padding-main-page);
 }
 h2 {
   font-size: var(--fontsize-h2);

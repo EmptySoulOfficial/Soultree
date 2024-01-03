@@ -1,8 +1,10 @@
 :root {
     --color-main: var(--color-experimental-dark);
+    --color-mainRGBA: 19, 25, 28;
+    --color-second: var(--color-experimental-gray);
     --color-third: var(--color-angel-white);
     --color-highlight: var(--color-deep-sea-green);
-    
+
     --color-icons: var(--color-light-green);
     --color-watermarks: var(--color-pale-blue);
     --color-link: var(--color-light-green);
@@ -10,13 +12,13 @@
     --font-small: var(--font-size-12);
 }
 
-.App {
+.app {
     background-color: var(--color-main)
 }
 
 p, div {
 /* font-family: Roboto; */
-/* color: var(--color-angel-white); */
+color: var(--color-experimental-lynch);
 }
 
 p {

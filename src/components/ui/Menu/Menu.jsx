@@ -1,12 +1,13 @@
 import './Menu.css';
 import React from "react";
+import classNames from 'classnames';
 
-function Menu(){
+function Menu({setMenuOpen, menuOpen}){
     return(
-        <div className="Menu flex">
-            <span className="Menu-Line Menu-Line-1"></span>
-            <span className="Menu-Line Menu-Line-2"></span>
-            <span className="Menu-Line Menu-Line-3"></span>
+        <div className={classNames("menu flex", {'menu--active' : menuOpen, '' : !menuOpen })} onClick={() => setMenuOpen(!menuOpen)}>
+            <span className="menu-line menu-line-1"></span>
+            <span className="menu-line menu-line-2"></span>
+            <span className="menu-line menu-line-3"></span>
         </div>
     )
 }

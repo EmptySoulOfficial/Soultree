@@ -1,14 +1,13 @@
-import './Navigation.css';
-import React from "react";
-import Menu from '../Menu/Menu';
-import Logo from '../Logo/Logo';
+import './Navigation.css'
+import React from 'react'
+import classNames from 'classnames'
 
-function Navigation(){
+function Navigation({menuOpen}) {
+
     return(
-        <div className="Navigation flex">
-            <Logo />
-            <Menu />
-        </div>
+        <nav className={classNames("navigation",{'navigation--active': menuOpen, '': !menuOpen})}>
+            Some Text
+        </nav>
     )
 }
 

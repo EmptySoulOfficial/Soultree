@@ -3,9 +3,9 @@ import React from "react";
 
 function Block({blockTitle, blockText}){
     return(
-        <div className="Block">
+        <div className="block">
             <h2>{blockTitle}</h2>
-            <div className="Block-Text-Container">
+            <div className="block-text-container">
                 {blockText}
             </div>
             
@@ -13,4 +13,16 @@ function Block({blockTitle, blockText}){
     )
 }
 
-export default Block
+function IntroBlock({blockImage, blockTitle, blockText}){
+    return(
+        <div className="block intro-block">
+            <h2>{blockTitle}</h2>
+            <div className="block-text-container">
+                {blockText}
+            </div>
+            
+        </div>
+    )
+}
+
+export {Block, IntroBlock}

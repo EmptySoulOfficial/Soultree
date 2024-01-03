@@ -1,13 +1,44 @@
 /* standard block css */
 
-.Block {
+.block {
     margin: 20px 0px;
     padding: 20px;
     background-color: var(--color-second);
 }
 
-.Block-Text-Container {
+.block-text-container {
     padding-top: 10px;
     /* font-family: roboto; */
     font-size: var(--fontsize-default);
 }
+
+.intro-block {
+    padding-left: 166px;
+    border-left: 100%/2 solid #ff0000;
+    /* clip-path: polygon(100% 0, 100% 4em, calc(100% - 2em) 100%, 0 100%, 10em 0); */
+    -webkit-mask:
+    linear-gradient(-47deg,#fff 50%,transparent 50%) bottom left,
+    linear-gradient(137deg,#fff 50%,transparent 50%) top right;
+ -webkit-mask-size:2000px 2000px; /* width = height and big enough to consider all the cases */
+ -webkit-mask-repeat:no-repeat;
+ -webkit-mask-composite: destination-in;
+ mask:
+    linear-gradient(-47deg,#fff 50%,transparent 50%) bottom left,
+    linear-gradient(137deg,#fff 50%,transparent 50%) top right;
+ mask-size:2000px 2000px; /* width = height and big enough to consider all the cases */
+ mask-repeat:no-repeat;
+ mask-composite: intersect;
+ 
+ margin:5px;
+}
+
+/* .intro-block:after { */
+    /* content:"";  */
+    /* display: block; */
+    /* position: relative; */
+    /* left: -1px; */
+    /* border-top: 100px solid transparent; */
+    /* border-right: 100px solid #ff0000; */
+    /* border-bottom: 100px solid #ff0000; */
+      /* border-left: 100px solid transparent ; */
+/* } */

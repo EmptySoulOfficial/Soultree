@@ -1,10 +1,11 @@
 import './HomeSoultree.css'
 import React from "react";
-import Block from '../../ui/Block/Block';
+import {Block, IntroBlock} from '../../ui/Block/Block';
 
 function HomeSoultree(){
     return(
-        <div className="Home-Soultree">
+        <div className="home-soultree">
+            <IntroBlock blockImage={''} blockTitle={'Hi,'} blockText={'Ein beispiel Test Text in einem Block'}/>
             <Block blockTitle={'Hi,'} blockText={'Ein beispiel Test Text in einem Block'}/>
         </div>
     )
