@@ -3,24 +3,29 @@ import React from "react";
 
 function Block({blockTitle, blockText}){
     return(
-        <div className="block">
+        <section className="block">
             <h2>{blockTitle}</h2>
-            <div className="block-text-container">
+            <p className="block-text-container">
                 {blockText}
-            </div>
+            </p>
             
-        </div>
+        </section>
     )
 }
 
-function IntroBlock({blockImage, blockTitle, blockText}){
+function IntroBlock({blockImage, blockTitle, blockText, introBlockImage, introBlockImageAlt}){
+    
+    introBlockImage = "instagramprofile" ? "API-URL Here": introBlockImage
+    
     return(
         <div className="block intro-block">
-            <h2>{blockTitle}</h2>
-            <div className="block-text-container">
-                {blockText}
+            <img src={introBlockImage} alt={introBlockImageAlt} className="profile-picture"/>
+            <div className="intro-block-container">
+                <h2>{blockTitle}</h2>
+                <div className="block-text-container">
+                    {blockText}
+                </div>
             </div>
-            
         </div>
     )
 }
