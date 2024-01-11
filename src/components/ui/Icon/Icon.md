@@ -1,5 +1,5 @@
 # Icons
-### V 1.2.2 (REACT - MyBackup5 Version)
+### V 1.2.3 (REACT - MyBackup5 Version)
 _____
 
 ## How to import 
@@ -28,11 +28,11 @@ You can also define the icon size and color via css and leave the props here emp
 Make shure, you have placed your icon as symbol with the correct id inside the "Icons" SVG.
 
 ```js
-    <Icon name="<ICON NAME FROM ICON SYMBOL ID>" size="<YOUR SIZE AS NUMBER>" color="<ICON COLOR IN HEX>"/>
+    <Icon name="<ICON NAME FROM ICON SYMBOL ID>" size="<YOUR SIZE AS NUMBER>" color="<ICON COLOR IN HEX>" iconClass="<YOUR CUSTOM CLASS HERE>"/>
 ```
 
 ## Example
 
 ```js
-    <Icon name="test" size="20" color="#fefefe"/>
+    <Icon name="test" size="20" color="#fefefe" iconClass="Test"/>
 ```

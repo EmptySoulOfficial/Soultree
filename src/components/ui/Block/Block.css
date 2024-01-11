@@ -4,6 +4,7 @@
     margin: 20px 0px;
     padding: 20px;
     background-color: var(--color-second);
+    max-width: 360px;
 }
 
 .block-text-container {
@@ -14,11 +15,15 @@
 
 .intro-block {
     background-color: var(--color-none);
+    padding: 0;
+    padding-left: 20px;
+    position: relative;
+    max-width: 380px;
 }
 
 .intro-block-container {
     margin: 20px 0px;
-    padding: 20px;
+    padding: 30px;
     margin: 0;
     background-color: var(--color-second);
     padding-left: 40%;
@@ -52,7 +57,64 @@
 .profile-picture {
     width: 100px;
     height: 100px;
+    /* position: absolute; */
+    border: 0;
+    outline: 0;
+    background-color: #ff00005d;
+    z-index: 30;
+}
+
+.profile-picture-container {
     position: absolute;
-    background-color: #ff0000;
-    z-index: 50;
+    width: 100px;
+    height: 100%;
+}
+
+/* Fractales */
+
+
+.intro-block-fractal-cubic {
+    width: 24px;
+    height: 24px;
+    background-color: var(--color-highlight);
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.pp-fractal-1 {
+    width: 50px;
+    position: absolute;
+    fill: #2413ce;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.pp-fractal-2 {
+    width: 50px;
+    position: absolute;
+    fill: #ff006c;
+    margin-left: -10px;
+    margin-top: 20px;
+    z-index: 32;
+}
+
+.pp-fractal-3 {
+    width: 50px;
+    position: absolute;
+    fill: var(--color-highlight);
+    margin-left: 80px;
+    margin-top: -35px;
+    z-index: 32;
+}
+
+.pp-fractal-4 {
+    width: 50px;
+    position: absolute;
+    fill: #ab2eb0;
+    margin-left: 75px;
+    margin-top: -22px;
+    z-index: 31;
 }

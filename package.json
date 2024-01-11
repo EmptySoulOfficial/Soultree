@@ -1,6 +1,7 @@
 {
   "name": "emptysoul_soultree",
   "version": "2.0.0",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
