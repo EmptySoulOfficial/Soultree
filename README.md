@@ -6,9 +6,7 @@ A mini website that I developed as a "link share" for my Instagram bio.
 
 ______
 
-## Dev Info
-#### Npm Version: 6.14.13
-#### Node Version: 14.17.3
+-> Release Version to upload <-
 _____
 
 #### March 2023
