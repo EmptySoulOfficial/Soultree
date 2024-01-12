@@ -3,6 +3,12 @@
     --padding-main-pagex2: calc(var(--padding-main-page) * 2);
     --height-header: 50px;
     --paddingTop-main: calc(var(--height-header) + var(--padding-main-pagex2));
+    /* small props */
+    --padding-main-page--small: 20px;
+    --padding-main-page--smallx2: calc(var(--padding-main-page--small) * 2);
+    --paddingTop-main--small: calc(var(--height-header) + var(--padding-main-page--smallx2));
+    --height-header--small: 40px;
+    /* global props  */
     --maxWidth-app: 1200px;
     --border-radius-default: 0px;
     --animation-default: cubic-bezier(0.47, 0, 0, 1.01);

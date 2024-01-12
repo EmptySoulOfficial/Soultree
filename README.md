@@ -8,5 +8,7 @@ ___
 #### Dev informations
 Node-Version: v16.13.0
 React-Version: 18.2.0
+
+! The Page only shows up corrently, when it's uploaded on a server !
 ____
 Jan 2024

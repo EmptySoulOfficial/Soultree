@@ -14,13 +14,25 @@
     fill: var(--color-third);
     width: 50%;
     max-height: 24px;
+    min-width: 160px;
 }
 
 .icon-empty_soul_logo2020 {
     fill: var(--color-third);
-    width: 50px;
+    width: 24px;
     display: none;
 }
+
+/* Small Mobile Devices */
+@media only screen and (max-width: 380px) {
+
+    .header {
+        width: calc(100% - var(--padding-main-page--small)*2);
+        padding: var(--padding-main-page--small);
+        height: var( --height-header--small);
+    }
+  
+  }
 
 /* Super Small Mobile Devices */
 @media only screen and (max-width: 320px) {
