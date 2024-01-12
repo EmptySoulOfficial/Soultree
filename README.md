@@ -6,9 +6,7 @@ The Soultree-Project (before EmptySoul_Instagram) is a small link-page for insta
 
 ___
 #### Dev informations
-Node-Version: v16.13.0
-React-Version: 18.2.0
 
-! The Page only shows up corrently, when it's uploaded on a server !
+-> Release Version <-
 ____
 Jan 2024
